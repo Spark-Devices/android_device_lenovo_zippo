@@ -14,3 +14,7 @@ $(call inherit-product, device/lenovo/sm8150-common/common.mk)
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM := msmnile
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
