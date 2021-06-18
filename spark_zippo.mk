@@ -13,6 +13,7 @@ WITH_GAPPS=true
 WITH_FOD_ANIMATIONS=true
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+SPARK_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo

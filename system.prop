@@ -1,3 +1,6 @@
 # Camera
 ro.config.zui.region=ROW
 sys.camera.packagename.zui=1
+
+ro.spark.status=Official
+ro.spark.maintainer=Chema_F
