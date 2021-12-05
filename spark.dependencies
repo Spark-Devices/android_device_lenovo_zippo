@@ -1,44 +1,26 @@
 [
     {
         "remote": "devices",
-        "repository": "device_lenovo_sm8150-common",
+        "repository": "android_device_lenovo_sm8150-common",
         "target_path": "device/lenovo/sm8150-common",
-        "branch": "fire"
+        "branch": "spark"
     },
     {
         "remote": "devices",
-        "repository": "device_lenovo_zippo",
+        "repository": "android_device_lenovo_zippo",
         "target_path": "device/lenovo/zippo",
-        "branch": "fire"
+        "branch": "spark"
     },
     {
         "remote": "devices",
-        "repository": "vendor_lenovo",
+        "repository": "android_vendor_lenovo",
         "target_path": "vendor/lenovo",
-        "branch": "fire"
+        "branch": "spark"
     },
     {
-        "remote": "github",
-        "repository": "chematelegram/kernel_lenovo_sm8150",
+        "remote": "devices",
+        "repository": "android_kernel_lenovo_sm8150",
         "target_path": "kernel/lenovo/sm8150",
-        "branch": "fire"
-    },
-    {
-        "remote": "github",
-        "repository": "ArrowOS/android_hardware_qcom_audio",
-        "target_path": "hardware/qcom-caf/sm8150/audio",
-        "branch": "arrow-11.0-caf-sm8150"
-    }, 
-    {
-        "remote": "github",
-        "repository": "ArrowOS/android_hardware_qcom_media",
-        "target_path": "hardware/qcom-caf/sm8150/media",
-        "branch": "arrow-11.0-caf-sm8150"
-    }, 
-    {
-        "remote": "github",
-        "repository": "ArrowOS/android_hardware_qcom_display",
-        "target_path": "hardware/qcom-caf/sm8150/display",
-        "branch": "arrow-11.0-caf-sm8150"
+        "branch": "spark"
     }    
 ]
