@@ -9,7 +9,7 @@ $(call inherit-product, device/lenovo/zippo/device.mk)
 # Inherit some common Spark OS stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_FOD_ANIMATIONS=true
+EXTRA_UDFPS_ANIMATIONS := true
 TARGET_USES_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 SPARK_BUILD_TYPE := OFFICIAL
