@@ -1,5 +1,9 @@
+#Spark
+ro.spark.status=Official
+ro.spark.maintainer=Chema_F
+
 # Camera
 ro.config.zui.region=ROW
 
-ro.spark.status=Official
-ro.spark.maintainer=Chema_F
+# FM
+vendor.hw.fm.init=0
