@@ -3,24 +3,12 @@
         "remote": "devices",
         "repository": "android_device_lenovo_sm8150-common",
         "target_path": "device/lenovo/sm8150-common",
-        "branch": "spark"
+        "branch": "pyro"
     },
     {
         "remote": "devices",
         "repository": "android_device_lenovo_zippo",
         "target_path": "device/lenovo/zippo",
-        "branch": "spark"
-    },
-    {
-        "remote": "devices",
-        "repository": "android_vendor_lenovo",
-        "target_path": "vendor/lenovo",
-        "branch": "spark"
-    },
-    {
-        "remote": "devices",
-        "repository": "android_kernel_lenovo_sm8150",
-        "target_path": "kernel/lenovo/sm8150",
-        "branch": "spark"
-    }    
+        "branch": "pyro"
+    }
 ]
