@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-   Snap
+   GCamMGC
 
 # FM
 PRODUCT_PACKAGES += \
