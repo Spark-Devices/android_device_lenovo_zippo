@@ -25,8 +25,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml
 
 # Camera
+ifeq ($(WITH_GAPPS),true)
+TARGET_NO_PREBUILT_CAMERA := true
+
 PRODUCT_PACKAGES += \
    GCamMGC
+endif
 
 # FM
 PRODUCT_PACKAGES += \
