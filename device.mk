@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 ifeq ($(WITH_GAPPS),true)
-TARGET_NO_PREBUILT_CAMERA := true
+NO_APERTURE := true
 
 PRODUCT_PACKAGES += \
    GCamMGC
